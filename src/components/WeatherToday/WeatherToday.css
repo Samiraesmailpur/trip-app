@@ -1,0 +1,49 @@
+.weather-today {
+  width: 300px;
+  height: 400px;
+  background: #031647;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.current-day {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.temp {
+  position: relative;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.temp::after {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  content: "\00B0 C";
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.weather-icon {
+  position: absolute;
+  width: 50px;
+  height: 35px;
+  top: 40%;
+  left: 18%;
+}
+
+.city {
+  font-size: 10px;
+  color: #fff;
+}

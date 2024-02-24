@@ -1,0 +1,19 @@
+.countdown {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.countdown-num {
+  font-size: 14px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.countdown-text {
+  color: #fff;
+  font-size: 10px;
+  text-transform: capitalize;
+}

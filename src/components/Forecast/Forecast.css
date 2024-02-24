@@ -1,0 +1,35 @@
+.forecast-title {
+  margin-bottom: 30px;
+}
+
+.forecast-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+}
+.forecast-item {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.forecast-day {
+  font-size: 14px;
+  color: #00000075;
+  font-weight: 400;
+}
+
+.forecast-temp {
+  position: relative;
+  font-size: 14px;
+  color: #00000075;
+  font-weight: 400;
+}
+
+.forecast-icon {
+  width: 50px;
+}
